@@ -1,556 +1,1615 @@
 <!doctype html>
-<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260917-05-f0c5fe2","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/83d6dfdadcd4750a.telemetry_sdk.js" integrity="sha512-XS4Dvzp6vbagZS9vFErihvr8aO3S0tH78KWUefn06fmL4WYqryBtZj/IOLITYj7dFA4gPVvPg1W/JB1DK3uLNQ=="></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yogesh Balpande — Developer Portfolio</title>
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
-  <script src="/_sdk/8de366929c5f3b48.data_sdk.js" integrity="sha512-TyQ8k8cZj66xe/aENmn6RyZpdOFZXbAo5+KBG3PeFM+Q4qMTHU8xAqmq4ADClNfPrstgQYV6OzZHwLTnElzB2g=="></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ink: #171b1a;
-      --paper: #f5f0e8;
-      --paper-deep: #e9e0d1;
-      --panel: #f9f5ef;
-      --accent: #d65a3a;
-      --accent-soft: #f4d4c9;
-      --accent-deep: #bb432a;
-      --line: rgba(23, 27, 26, .12);
-      --muted: #58615c;
-      --night: #101514;
-      --night-soft: #1d2624;
-      --white: #ffffff;
-      --shadow-soft: 0 20px 45px rgba(23, 27, 26, .09);
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      width: 100%;
-      min-width: 0;
-      margin: 0;
-      overflow-x: hidden;
-      font-family: "DM Sans", sans-serif;
-      color: var(--ink);
-      background:
-        radial-gradient(circle at top left, rgba(214, 90, 58, .12), transparent 28%),
-        linear-gradient(180deg, var(--paper) 0%, #f8f5f0 100%);
-    }
-
-    .site-shell { width: 100%; }
-    .content-width { width: min(100% - 2.5rem, 1180px); margin: 0 auto; }
-    .display-face { font-family: "Fraunces", serif; }
-    .hairline { border-color: var(--line); }
-    .eyebrow {
-      font-size: .72rem;
-      font-weight: 700;
-      letter-spacing: .14em;
-      line-height: 1.25;
-      text-transform: uppercase;
-    }
-
-    .header-glass {
-      background: rgba(245, 240, 232, .82);
-      backdrop-filter: blur(16px);
-      box-shadow: 0 10px 30px rgba(23, 27, 26, .03);
-    }
-
-    .nav-link {
-      position: relative;
-      padding: .35rem 0;
-      transition: color .22s ease;
-      color: var(--ink);
-    }
-
-    .nav-link::after {
-      position: absolute;
-      bottom: -.1rem;
-      left: 0;
-      width: 100%;
-      height: 2px;
-      content: "";
-      background: var(--accent);
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform .25s ease;
-    }
-
-    .nav-link:hover::after,
-    .nav-link:focus-visible::after {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
-
-    .menu-panel {
-      overflow: hidden;
-      transition: max-height .3s ease, opacity .2s ease;
-    }
-
-    .menu-panel.is-closed {
-      max-height: 0;
-      pointer-events: none;
-      opacity: 0;
-    }
-
-    .button-primary,
-    .button-secondary {
-      transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease;
-    }
-
-    .button-primary {
-      box-shadow: 0 14px 28px rgba(214, 90, 58, .2);
-    }
-
-    .button-primary:hover {
-      background: var(--accent-deep) !important;
-      box-shadow: 0 18px 28px rgba(214, 90, 58, .26);
-      transform: translateY(-2px);
-    }
-
-    .button-secondary:hover {
-      border-color: rgba(214, 90, 58, .65);
-      box-shadow: 0 8px 18px rgba(23, 27, 26, .09);
-      transform: translateY(-2px);
-    }
-
-    .project-card,
-    .skill-card {
-      transition: transform .32s ease, box-shadow .32s ease, border-color .32s ease;
-    }
-
-    .project-card:hover,
-    .skill-card:hover {
-      border-color: rgba(214, 90, 58, .56);
-      box-shadow: 0 20px 36px rgba(23, 27, 26, .12);
-      transform: translateY(-5px);
-    }
-
-    .image-frame img {
-      transition: transform .7s cubic-bezier(.2, .8, .2, 1), filter .35s ease;
-    }
-
-    .project-card:hover .image-frame img {
-      filter: saturate(1.08) contrast(1.02);
-      transform: scale(1.04);
-    }
-
-    .hero-highlight {
-      position: relative;
-      border-radius: 28px;
-      background: linear-gradient(135deg, rgba(255,255,255,.6), rgba(245, 240, 232, .78));
-      border: 1px solid rgba(23, 27, 26, .06);
-      box-shadow: var(--shadow-soft);
-    }
-
-    .stat-pill {
-      border: 1px solid rgba(23, 27, 26, .08);
-      background: rgba(255,255,255,.5);
-      border-radius: 18px;
-      padding: 1rem 1rem;
-      min-height: 108px;
-      box-shadow: 0 8px 18px rgba(23, 27, 26, .04);
-    }
-
-    .stat-pill strong {
-      display: block;
-      color: var(--accent);
-      font-size: clamp(1.5rem, 1.7vw, 2.2rem);
-      line-height: 1;
-      margin-bottom: .45rem;
-      font-family: "Fraunces", serif;
-    }
-
-    .stat-pill span {
-      display: block;
-      font-size: .72rem;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      color: rgba(23, 27, 26, .72);
-      font-weight: 700;
-    }
-
-    .reveal {
-      opacity: 0;
-      transform: translateY(22px);
-      transition: opacity .65s ease, transform .65s ease;
-    }
-
-    .reveal.in-view {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .field {
-      width: 100%;
-      padding: .82rem 0;
-      color: #f4f1ea;
-      outline: none;
-      border: 0;
-      border-bottom: 1px solid rgba(244, 241, 234, .29);
-      background: transparent;
-      transition: border-color .2s ease, box-shadow .2s ease;
-    }
-
-    .field:focus {
-      border-color: #d65a3a;
-      box-shadow: 0 2px 0 #d65a3a;
-    }
-
-    .field::placeholder { color: #c6c2b9; }
-
-    .focus-ring:focus-visible,
-    button:focus-visible,
-    a:focus-visible,
-    input:focus-visible,
-    textarea:focus-visible {
-      outline: 3px solid rgba(214, 90, 58, .75);
-      outline-offset: 4px;
-    }
-
-    @media (min-width: 768px) {
-      .content-width { width: min(100% - 5rem, 1180px); }
-      .menu-panel.is-closed {
-        max-height: none;
-        overflow: visible;
-        pointer-events: auto;
-        opacity: 1;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      *, *::before, *::after {
-        transition-duration: .01ms !important;
-        animation-duration: .01ms !important;
-      }
-      .reveal { opacity: 1; transform: none; }
-    }
-  </style>
-  <script src="/_sdk/a558f474cd01d324.resizing_sdk.js" type="text/javascript" integrity="sha512-evIEjzvRDdaV6tHT4THeYa18+ppfgUj4Zpx5W8R1gaF2VKcOba7TPP4x2YYqsfThPwuC5NaBFyUH6V81c3i8kA=="></script>
- </head>
- <body data-template-id="__page-root" style="background: rgb(244, 241, 234);">
-  <div class="site-shell">
-   <header data-template-id="site-header" class="canva-header header-glass sticky top-0 z-40 border-b hairline backdrop-blur-md" style="background: rgb(244, 241, 234);">
-    <div class="content-width flex min-h-[76px] items-center justify-between gap-6"><a href="#top" class="focus-ring inline-flex items-center gap-2 no-underline" aria-label="Return to top"> <span data-template-id="site-mark" class="canva-text display-face text-2xl font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">YB</span> <span class="h-2 w-2 rounded-full" style="background:#d65a3a;"></span> </a> <button id="menu-toggle" type="button" class="focus-ring inline-flex items-center justify-center rounded-full border hairline p-2.5 transition hover:border-[#d65a3a] md:hidden" aria-expanded="false" aria-controls="mobile-menu"> <i data-lucide="menu" width="19" height="19" aria-hidden="true"></i> <span class="sr-only">Toggle navigation menu</span> </button>
-     <nav class="hidden items-center gap-7 text-sm font-semibold md:flex" aria-label="Primary navigation"><a class="nav-link focus-ring" href="#profile">Profile</a> <a class="nav-link focus-ring" href="#projects">Projects</a> <a class="nav-link focus-ring" href="#education">Education</a> <a class="nav-link focus-ring" href="#skills">Skills</a> <a class="nav-link focus-ring" href="#contact">Contact</a>
-     </nav>
+<html lang="en">
+  <head>
+    <script>
+      window["__codeletBootstrap__"] = JSON.parse(
+        '{"A":"A","B":"20260917-05-f0c5fe2","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}',
+      );
+    </script>
+    <script
+      src="/_sdk/83d6dfdadcd4750a.telemetry_sdk.js"
+      integrity="sha512-XS4Dvzp6vbagZS9vFErihvr8aO3S0tH78KWUefn06fmL4WYqryBtZj/IOLITYj7dFA4gPVvPg1W/JB1DK3uLNQ=="
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yogesh Balpande — Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
+    <script
+      src="/_sdk/8de366929c5f3b48.data_sdk.js"
+      integrity="sha512-TyQ8k8cZj66xe/aENmn6RyZpdOFZXbAo5+KBG3PeFM+Q4qMTHU8xAqmq4ADClNfPrstgQYV6OzZHwLTnElzB2g=="
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="/_sdk/a558f474cd01d324.resizing_sdk.js"
+      type="text/javascript"
+      integrity="sha512-evIEjzvRDdaV6tHT4THeYa18+ppfgUj4Zpx5W8R1gaF2VKcOba7TPP4x2YYqsfThPwuC5NaBFyUH6V81c3i8kA=="
+    ></script>
+  </head>
+  <body data-template-id="__page-root" style="background: rgb(244, 241, 234)">
+    <div class="site-shell">
+      <header
+        data-template-id="site-header"
+        class="canva-header header-glass sticky top-0 z-40 border-b hairline backdrop-blur-md"
+        style="background: rgb(244, 241, 234)"
+      >
+        <div
+          class="content-width flex min-h-[76px] items-center justify-between gap-6"
+        >
+          <a
+            href="#top"
+            class="focus-ring inline-flex items-center gap-2 no-underline"
+            aria-label="Return to top"
+          >
+            <span
+              data-template-id="site-mark"
+              class="canva-text display-face text-2xl font-semibold"
+              style="
+                color: rgb(30, 37, 34);
+                font-weight: 600;
+                font-style: normal;
+                font-size: 16px;
+              "
+              >YB</span
+            >
+            <span
+              class="h-2 w-2 rounded-full"
+              style="background: #d65a3a"
+            ></span>
+          </a>
+          <button
+            id="menu-toggle"
+            type="button"
+            class="focus-ring inline-flex items-center justify-center rounded-full border hairline p-2.5 transition hover:border-[#d65a3a] md:hidden"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <i data-lucide="menu" width="19" height="19" aria-hidden="true"></i>
+            <span class="sr-only">Toggle navigation menu</span>
+          </button>
+          <nav
+            class="hidden items-center gap-7 text-sm font-semibold md:flex"
+            aria-label="Primary navigation"
+          >
+            <a class="nav-link focus-ring" href="#profile">Profile</a>
+            <a class="nav-link focus-ring" href="#projects">Projects</a>
+            <a class="nav-link focus-ring" href="#education">Education</a>
+            <a class="nav-link focus-ring" href="#skills">Skills</a>
+            <a class="nav-link focus-ring" href="#contact">Contact</a>
+          </nav>
+        </div>
+        <nav
+          id="mobile-menu"
+          class="menu-panel is-closed border-t hairline md:hidden"
+          aria-label="Mobile navigation"
+        >
+          <div
+            class="content-width flex flex-col gap-4 py-5 text-sm font-semibold"
+          >
+            <a class="nav-link focus-ring w-fit" href="#profile">Profile</a>
+            <a class="nav-link focus-ring w-fit" href="#projects">Projects</a>
+            <a class="nav-link focus-ring w-fit" href="#education">Education</a>
+            <a class="nav-link focus-ring w-fit" href="#skills">Skills</a>
+            <a class="nav-link focus-ring w-fit" href="#contact">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <main id="top">
+        <section class="relative overflow-hidden border-b hairline">
+          <div
+            class="content-width grid items-center gap-12 py-16 md:grid-cols-[1.05fr_.95fr] md:py-24 lg:py-28"
+          >
+            <div class="reveal">
+              <p
+                data-template-id="hero-kicker"
+                class="canva-text eyebrow mb-6"
+                style="
+                  color: rgb(214, 90, 58);
+                  font-weight: 700;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                Computer Science &amp; Engineering Student · Bhopal
+              </p>
+              <h1
+                data-template-id="hero-name"
+                class="canva-text display-face max-w-3xl font-semibold leading-[.88] tracking-[-.07em]"
+                style="
+                  color: rgb(30, 37, 34);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 72px;
+                  letter-spacing: -0.07rem;
+                  line-height: 0.9;
+                "
+              >
+                Yogesh Balpande
+              </h1>
+              <p
+                data-template-id="hero-headline"
+                class="canva-text mt-7 max-w-xl font-medium leading-snug"
+                style="
+                  color: rgb(30, 37, 34);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 25px;
+                  line-height: 1.25;
+                "
+              >
+                Full-stack developer building useful, modern technology.
+              </p>
+              <p
+                data-template-id="hero-introduction"
+                class="canva-text mt-5 max-w-lg leading-7"
+                style="
+                  color: rgb(88, 96, 90);
+                  font-weight: 400;
+                  font-style: normal;
+                  font-size: 17px;
+                  line-height: 1.7;
+                "
+              >
+                Focused on MERN-stack development, mobile applications, RESTful
+                APIs, data analysis, and modern AI.
+              </p>
+              <div
+                class="mt-6 flex max-w-xl flex-wrap gap-2.5"
+                aria-label="Portfolio specifications"
+              >
+                <span
+                  data-template-id="role-badge"
+                  class="canva-tag inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold"
+                  style="
+                    background: rgb(235, 229, 218);
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Computer Science &amp; Engineering Student</span
+                >
+                <span
+                  data-template-id="location-badge"
+                  class="canva-tag inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold"
+                  style="
+                    background: rgb(235, 229, 218);
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Bhopal, India</span
+                >
+                <span
+                  data-template-id="focus-badge"
+                  class="canva-tag inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold"
+                  style="
+                    background: rgb(235, 229, 218);
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >MERN Stack • APIs • Mobile Apps</span
+                >
+              </div>
+              <div
+                class="mt-4 flex max-w-xl flex-wrap items-center gap-x-3 gap-y-2 text-xs"
+                aria-label="Current project focus"
+              >
+                <span
+                  data-template-id="currently-building-label"
+                  class="canva-text eyebrow"
+                  style="
+                    color: rgb(214, 90, 58);
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Currently building</span
+                >
+                <span
+                  data-template-id="currently-building-value"
+                  class="canva-text font-semibold"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >SlopeSense · Mobile &amp; terrain analysis</span
+                >
+              </div>
+              <div
+                class="mt-4 flex max-w-xl flex-wrap items-center gap-x-2 gap-y-2 text-xs"
+                aria-label="Core technologies"
+              >
+                <span
+                  data-template-id="core-technologies-label"
+                  class="canva-text eyebrow"
+                  style="
+                    color: rgb(214, 90, 58);
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Core technologies</span
+                >
+                <span
+                  data-template-id="core-technologies-value"
+                  class="canva-text font-semibold"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >React.js • Node.js • Express • MongoDB</span
+                >
+              </div>
+              <div class="mt-8 grid max-w-xl gap-3 sm:grid-cols-3">
+                <div class="stat-pill">
+                  <strong>3+</strong>
+                  <span>Years learning</span>
+                </div>
+                <div class="stat-pill">
+                  <strong>8+</strong>
+                  <span>Projects built</span>
+                </div>
+                <div class="stat-pill">
+                  <strong>100%</strong>
+                  <span>Curiosity-led</span>
+                </div>
+              </div>
+              <div class="mt-9 flex flex-wrap gap-3">
+                <a
+                  data-template-id="projects-button"
+                  class="canva-button button-primary focus-ring inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold no-underline"
+                  href="#projects"
+                  style="
+                    background: rgb(214, 90, 58);
+                    color: rgb(255, 255, 255);
+                  "
+                >
+                  <span
+                    data-template-id="projects-button-label"
+                    class="canva-text"
+                    style="
+                      color: rgb(255, 255, 255);
+                      font-weight: 700;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                    >View projects</span
+                  >
+                  <i
+                    data-lucide="arrow-down-right"
+                    width="17"
+                    height="17"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+                <a
+                  data-template-id="contact-button"
+                  class="canva-button button-secondary focus-ring inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold no-underline"
+                  href="#contact"
+                  style="background: rgb(244, 241, 234); color: rgb(30, 37, 34)"
+                >
+                  <span
+                    data-template-id="contact-button-label"
+                    class="canva-text"
+                    style="
+                      color: rgb(30, 37, 34);
+                      font-weight: 700;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                    >Get in touch</span
+                  >
+                  <i
+                    data-lucide="arrow-up-right"
+                    width="17"
+                    height="17"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </div>
+            </div>
+            <div
+              class="reveal relative hero-highlight p-3"
+              style="transition-delay: 0.12s"
+            >
+              <div
+                class="absolute -right-5 -top-5 h-28 w-28 rounded-full border-[18px] md:-right-6 md:-top-6 md:h-40 md:w-40"
+                style="border-color: #d65a3a; opacity: 0.9"
+              ></div>
+              <div
+                class="relative aspect-[4/5] overflow-hidden rounded-[22px] ring-1 ring-black/5"
+              >
+                <img
+                  data-template-id="hero-image"
+                  class="canva-image h-full w-full object-cover"
+                  loading="lazy"
+                  src="https://images.pexels.com/photos/12899156/pexels-photo-12899156.jpeg"
+                  alt="Focused software developer typing code on a laptop in a modern office setting."
+                />
+              </div>
+              <p
+                data-template-id="hero-image-caption"
+                class="canva-text mt-4 text-xs font-medium uppercase tracking-[.12em]"
+                style="
+                  color: rgb(88, 96, 90);
+                  font-weight: 700;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                Developer portfolio · Bhopal, India
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="profile" class="border-b hairline py-20 md:py-28">
+          <div class="content-width grid gap-10 md:grid-cols-[.7fr_1.3fr]">
+            <div class="reveal">
+              <p
+                data-template-id="profile-label"
+                class="canva-text eyebrow"
+                style="
+                  color: rgb(214, 90, 58);
+                  font-weight: 700;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                01 / Profile
+              </p>
+            </div>
+            <div class="reveal">
+              <h2
+                data-template-id="profile-title"
+                class="canva-text display-face max-w-3xl font-semibold leading-tight tracking-[-.045em]"
+                style="
+                  color: rgb(30, 37, 34);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 24px;
+                "
+              >
+                Building practical digital products with curiosity and care.
+              </h2>
+              <p
+                data-template-id="profile-copy"
+                class="canva-text mt-6 max-w-2xl leading-8"
+                style="
+                  color: rgb(88, 96, 90);
+                  font-weight: 400;
+                  font-style: normal;
+                  font-size: 18px;
+                  line-height: 1.7;
+                "
+              >
+                I am a Computer Science and Engineering student at Sagar
+                Institute of Science Technology and Research, Bhopal. I enjoy
+                turning real-world needs into scalable web, mobile, and
+                data-driven solutions.
+              </p>
+              <div
+                class="mt-10 grid gap-px overflow-hidden border hairline bg-[rgba(30,37,34,.16)] sm:grid-cols-3"
+              >
+                <div
+                  data-template-id="focus-one"
+                  class="canva-panel p-6"
+                  style="background: rgb(235, 229, 218)"
+                >
+                  <p
+                    data-template-id="focus-one-number"
+                    class="canva-text display-face text-3xl font-semibold"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    01
+                  </p>
+                  <p
+                    data-template-id="focus-one-label"
+                    class="canva-text mt-6 text-sm font-semibold"
+                    style="
+                      color: rgb(30, 37, 34);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    MERN-stack development
+                  </p>
+                </div>
+                <div
+                  data-template-id="focus-two"
+                  class="canva-panel p-6"
+                  style="background: rgb(235, 229, 218)"
+                >
+                  <p
+                    data-template-id="focus-two-number"
+                    class="canva-text display-face text-3xl font-semibold"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    02
+                  </p>
+                  <p
+                    data-template-id="focus-two-label"
+                    class="canva-text mt-6 text-sm font-semibold"
+                    style="
+                      color: rgb(30, 37, 34);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    Mobile apps &amp; APIs
+                  </p>
+                </div>
+                <div
+                  data-template-id="focus-three"
+                  class="canva-panel p-6"
+                  style="background: rgb(235, 229, 218)"
+                >
+                  <p
+                    data-template-id="focus-three-number"
+                    class="canva-text display-face text-3xl font-semibold"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    03
+                  </p>
+                  <p
+                    data-template-id="focus-three-label"
+                    class="canva-text mt-6 text-sm font-semibold"
+                    style="
+                      color: rgb(30, 37, 34);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    Data analysis &amp; modern AI
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="py-20 md:py-28">
+          <div class="content-width">
+            <div
+              class="reveal flex flex-col justify-between gap-6 border-b hairline pb-8 md:flex-row md:items-end"
+            >
+              <div>
+                <p
+                  data-template-id="projects-label"
+                  class="canva-text eyebrow"
+                  style="
+                    color: rgb(214, 90, 58);
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                >
+                  02 / Projects
+                </p>
+                <h2
+                  data-template-id="projects-title"
+                  class="canva-text display-face mt-4 font-semibold tracking-[-.045em]"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 24px;
+                  "
+                >
+                  Selected technical work.
+                </h2>
+              </div>
+              <p
+                data-template-id="projects-intro"
+                class="canva-text max-w-sm leading-7"
+                style="
+                  color: rgb(88, 96, 90);
+                  font-weight: 400;
+                  font-style: normal;
+                  font-size: 16px;
+                  line-height: 1.6;
+                "
+              >
+                Full-stack, mobile, and data-focused projects designed around
+                real user needs.
+              </p>
+            </div>
+            <div class="mt-10 grid gap-6 lg:grid-cols-12">
+              <article
+                data-template-id="project-one-card"
+                class="canva-card project-card reveal overflow-hidden border hairline lg:col-span-7"
+                style="background: rgb(235, 229, 218)"
+              >
+                <div class="image-frame aspect-[16/10] overflow-hidden">
+                  <img
+                    data-template-id="project-one-image"
+                    class="canva-image h-full w-full object-cover"
+                    loading="lazy"
+                    src="https://images.pexels.com/photos/36136699/pexels-photo-36136699.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800"
+                    alt="A smartphone displaying an app screen lies on a dark surface, highlighting technology."
+                  />
+                </div>
+                <div class="p-6 md:p-7">
+                  <p
+                    data-template-id="project-one-type"
+                    class="canva-tag eyebrow"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 700;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    Mobile &amp; terrain analysis · March 2026 — June 2026
+                  </p>
+                  <h3
+                    data-template-id="project-one-title"
+                    class="canva-text display-face mt-4 font-semibold tracking-[-.04em]"
+                    style="
+                      color: rgb(30, 37, 34);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 19px;
+                    "
+                  >
+                    SlopeSense
+                  </h3>
+                  <p
+                    data-template-id="project-one-copy"
+                    class="canva-text mt-3 max-w-xl leading-7"
+                    style="
+                      color: rgb(88, 96, 90);
+                      font-weight: 400;
+                      font-style: normal;
+                      font-size: 16px;
+                      line-height: 1.65;
+                    "
+                  >
+                    A cross-platform React Native app for real-time slope and
+                    terrain analysis, helping assess land safety and identify
+                    suitable groundwater recharge pit locations. Includes
+                    interactive maps, dynamic markers, Node.js APIs, Python
+                    terrain processing, and Docker deployment.
+                  </p>
+                  <p
+                    data-template-id="project-one-skills"
+                    class="canva-text mt-5 text-sm font-semibold leading-6"
+                    style="
+                      color: rgb(30, 37, 34);
+                      font-weight: 600;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    React.js · React Native · Node.js · Express · Docker ·
+                    MongoDB · REST API design
+                  </p>
+                </div>
+              </article>
+              <div class="grid gap-6 lg:col-span-5">
+                <article
+                  data-template-id="project-two-card"
+                  class="canva-card project-card reveal overflow-hidden border hairline"
+                  style="
+                    transition-delay: 0.08s;
+                    background: rgb(255, 255, 255);
+                  "
+                >
+                  <div class="image-frame aspect-[16/9] overflow-hidden">
+                    <img
+                      data-template-id="project-two-image"
+                      class="canva-image h-full w-full object-cover"
+                      loading="lazy"
+                      src="https://images.pexels.com/photos/3888149/pexels-photo-3888149.jpeg"
+                      alt="Computer screen with program code and app during work in workplace of modern office."
+                    />
+                  </div>
+                  <div class="p-6">
+                    <p
+                      data-template-id="project-two-type"
+                      class="canva-tag eyebrow"
+                      style="
+                        color: rgb(214, 90, 58);
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Quiz platform · October 2025 — November 2025
+                    </p>
+                    <h3
+                      data-template-id="project-two-title"
+                      class="canva-text display-face mt-3 font-semibold tracking-[-.04em]"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 19px;
+                      "
+                    >
+                      QuizMaster
+                    </h3>
+                    <p
+                      data-template-id="project-two-copy"
+                      class="canva-text mt-2 leading-6"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 1.6;
+                      "
+                    >
+                      A scalable quiz management platform with validated MongoDB
+                      data models, batch-code verification, result processing,
+                      real-time leaderboards, RESTful APIs, and secure
+                      middleware.
+                    </p>
+                    <p
+                      data-template-id="project-two-skills"
+                      class="canva-text mt-4 text-sm font-semibold leading-6"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      React.js · Express · MongoDB · Node.js
+                    </p>
+                  </div>
+                </article>
+                <article
+                  data-template-id="project-three-card"
+                  class="canva-card project-card reveal overflow-hidden border hairline"
+                  style="
+                    transition-delay: 0.15s;
+                    background: rgb(232, 226, 215);
+                  "
+                >
+                  <div class="image-frame aspect-[16/9] overflow-hidden">
+                    <img
+                      data-template-id="project-three-image"
+                      class="canva-image h-full w-full object-cover"
+                      loading="lazy"
+                      src="https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg"
+                      alt="Sleek laptop showcasing data analytics and graphs on the screen in a bright room."
+                    />
+                  </div>
+                  <div class="p-6">
+                    <p
+                      data-template-id="project-three-type"
+                      class="canva-tag eyebrow"
+                      style="
+                        color: rgb(214, 90, 58);
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Full-stack web application · October 2025 — November 2025
+                    </p>
+                    <h3
+                      data-template-id="project-three-title"
+                      class="canva-text display-face mt-3 font-semibold tracking-[-.04em]"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 19px;
+                      "
+                    >
+                      Student Management System
+                    </h3>
+                    <p
+                      data-template-id="project-three-copy"
+                      class="canva-text mt-2 leading-6"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 1.6;
+                      "
+                    >
+                      A student records platform for enrollment, attendance
+                      tracking, performance reporting, analytics dashboards, and
+                      automated reporting with JWT-based role-based access
+                      control.
+                    </p>
+                    <p
+                      data-template-id="project-three-skills"
+                      class="canva-text mt-4 text-sm font-semibold leading-6"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      React.js · Node.js · SQL · MongoDB · Tailwind CSS
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="skills"
+          data-template-id="skills-section"
+          class="canva-section border-y hairline py-20 md:py-28"
+          style="background: rgb(232, 226, 215)"
+        >
+          <div class="content-width">
+            <div class="reveal grid gap-6 md:grid-cols-[.7fr_1.3fr]">
+              <p
+                data-template-id="skills-label"
+                class="canva-text eyebrow"
+                style="
+                  color: rgb(214, 90, 58);
+                  font-weight: 700;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                03 / Skills &amp; languages
+              </p>
+              <div>
+                <h2
+                  data-template-id="skills-title"
+                  class="canva-text display-face font-semibold tracking-[-.045em]"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 24px;
+                  "
+                >
+                  A practical, full-stack toolkit.
+                </h2>
+                <p
+                  data-template-id="skills-copy"
+                  class="canva-text mt-5 max-w-2xl leading-7"
+                  style="
+                    color: rgb(88, 96, 90);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 17px;
+                    line-height: 1.7;
+                  "
+                >
+                  A growing technical foundation across web development, mobile
+                  development, databases, deployment, and programming
+                  fundamentals.
+                </p>
+              </div>
+            </div>
+            <div class="mt-11 grid gap-4 md:grid-cols-3">
+              <article
+                data-template-id="skill-one-card"
+                class="canva-card skill-card reveal border hairline p-6"
+                style="background: rgb(244, 241, 234)"
+              >
+                <span
+                  class="mb-12 inline-flex rounded-full p-3"
+                  style="background: #d65a3a; color: #ffffff"
+                >
+                  <i
+                    data-lucide="braces"
+                    width="21"
+                    height="21"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+                <h3
+                  data-template-id="skill-one-title"
+                  class="canva-text display-face font-semibold"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 19px;
+                  "
+                >
+                  Web development
+                </h3>
+                <p
+                  data-template-id="skill-one-copy"
+                  class="canva-text mt-3 leading-7"
+                  style="
+                    color: rgb(88, 96, 90);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 1.65;
+                  "
+                >
+                  MERN Stack, JavaScript, React.js, Node.js, Express, MongoDB,
+                  Tailwind CSS, REST API design, JWT, and role-based access
+                  control.
+                </p>
+              </article>
+              <article
+                data-template-id="skill-two-card"
+                class="canva-card skill-card reveal border hairline p-6"
+                style="transition-delay: 0.08s; background: rgb(244, 241, 234)"
+              >
+                <span
+                  class="mb-12 inline-flex rounded-full p-3"
+                  style="background: #d65a3a; color: #ffffff"
+                >
+                  <i
+                    data-lucide="smartphone"
+                    width="21"
+                    height="21"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+                <h3
+                  data-template-id="skill-two-title"
+                  class="canva-text display-face font-semibold"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 19px;
+                  "
+                >
+                  Mobile &amp; deployment
+                </h3>
+                <p
+                  data-template-id="skill-two-copy"
+                  class="canva-text mt-3 leading-7"
+                  style="
+                    color: rgb(88, 96, 90);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 1.65;
+                  "
+                >
+                  React Native for cross-platform app development, Docker
+                  containers for deployment, and scalable API-driven application
+                  architecture.
+                </p>
+              </article>
+              <article
+                data-template-id="skill-three-card"
+                class="canva-card skill-card reveal border hairline p-6"
+                style="transition-delay: 0.16s; background: rgb(244, 241, 234)"
+              >
+                <span
+                  class="mb-12 inline-flex rounded-full p-3"
+                  style="background: #d65a3a; color: #ffffff"
+                >
+                  <i
+                    data-lucide="database"
+                    width="21"
+                    height="21"
+                    aria-hidden="true"
+                  ></i>
+                </span>
+                <h3
+                  data-template-id="skill-three-title"
+                  class="canva-text display-face font-semibold"
+                  style="
+                    color: rgb(30, 37, 34);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 19px;
+                  "
+                >
+                  Programming &amp; languages
+                </h3>
+                <p
+                  data-template-id="skill-three-copy"
+                  class="canva-text mt-3 leading-7"
+                  style="
+                    color: rgb(88, 96, 90);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 1.65;
+                  "
+                >
+                  C programming, Python, SQL, JavaScript .
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section id="education" class="py-20 md:py-28">
+          <div class="content-width grid gap-10 md:grid-cols-[.7fr_1.3fr]">
+            <div class="reveal">
+              <p
+                data-template-id="education-label"
+                class="canva-text eyebrow"
+                style="
+                  color: rgb(214, 90, 58);
+                  font-weight: 700;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                04 / Education &amp; certifications
+              </p>
+              <h2
+                data-template-id="education-title"
+                class="canva-text display-face mt-4 font-semibold tracking-[-.045em]"
+                style="
+                  color: rgb(30, 37, 34);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 24px;
+                "
+              >
+                Learning in progress.
+              </h2>
+            </div>
+            <div class="reveal">
+              <div class="divide-y hairline border-t hairline">
+                <article class="grid gap-3 py-6 sm:grid-cols-[120px_1fr]">
+                  <p
+                    data-template-id="education-one-year"
+                    class="canva-text text-sm font-semibold"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 700;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    Current
+                  </p>
+                  <div>
+                    <h3
+                      data-template-id="education-one-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 19px;
+                      "
+                    >
+                      B.Tech / B.E. in Computer Science and Engineering (CSE)
+                    </h3>
+                    <p
+                      data-template-id="education-one-copy"
+                      class="canva-text mt-1 leading-6"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Sagar Institute of Science Technology and Research, Bhopal
+                    </p>
+                  </div>
+                </article>
+                <article class="grid gap-3 py-6 sm:grid-cols-[120px_1fr]">
+                  <p
+                    data-template-id="education-two-year"
+                    class="canva-text text-sm font-semibold"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 700;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    2023
+                  </p>
+                  <div>
+                    <h3
+                      data-template-id="education-two-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 19px;
+                      "
+                    >
+                      Class XII
+                    </h3>
+                    <p
+                      data-template-id="education-two-copy"
+                      class="canva-text mt-1 leading-6"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      C. M. Rise , Pandhurna, Madhya Pradesh
+                    </p>
+                  </div>
+                </article>
+                <article class="grid gap-3 py-6 sm:grid-cols-[120px_1fr]">
+                  <p
+                    data-template-id="education-three-year"
+                    class="canva-text text-sm font-semibold"
+                    style="
+                      color: rgb(214, 90, 58);
+                      font-weight: 700;
+                      font-style: normal;
+                      font-size: 16px;
+                    "
+                  >
+                    2021
+                  </p>
+                  <div>
+                    <h3
+                      data-template-id="education-three-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 19px;
+                      "
+                    >
+                      Class X
+                    </h3>
+                    <p
+                      data-template-id="education-three-copy"
+                      class="canva-text mt-1 leading-6"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Dr. RadhaKrishnan Vidhya Mandir, Pandhurna, Madhya Pradesh
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="mt-12">
+                <p
+                  data-template-id="certifications-label"
+                  class="canva-text eyebrow"
+                  style="
+                    color: rgb(214, 90, 58);
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                >
+                  Courses &amp; certifications
+                </p>
+                <div
+                  class="mt-5 grid gap-px overflow-hidden border hairline bg-[rgba(30,37,34,.16)] sm:grid-cols-2"
+                >
+                  <div
+                    data-template-id="certification-one"
+                    class="canva-panel p-5"
+                    style="background: rgb(235, 229, 218)"
+                  >
+                    <p
+                      data-template-id="certification-one-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Cisco CCNA
+                    </p>
+                    <p
+                      data-template-id="certification-one-date"
+                      class="canva-text mt-2 text-sm"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      April 2026 — May 2026
+                    </p>
+                  </div>
+                  <div
+                    data-template-id="certification-two"
+                    class="canva-panel p-5"
+                    style="background: rgb(235, 229, 218)"
+                  >
+                    <p
+                      data-template-id="certification-two-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Introduction to Data Science
+                    </p>
+                    <p
+                      data-template-id="certification-two-date"
+                      class="canva-text mt-2 text-sm"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      November 2025 — January 2026
+                    </p>
+                  </div>
+                  <div
+                    data-template-id="certification-three"
+                    class="canva-panel p-5"
+                    style="background: rgb(235, 229, 218)"
+                  >
+                    <p
+                      data-template-id="certification-three-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      2026 India Internship SISTec Data Analytics Essentials
+                    </p>
+                    <p
+                      data-template-id="certification-three-date"
+                      class="canva-text mt-2 text-sm"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      May 2026 — June 2026
+                    </p>
+                  </div>
+                  <div
+                    data-template-id="certification-four"
+                    class="canva-panel p-5"
+                    style="background: rgb(235, 229, 218)"
+                  >
+                    <p
+                      data-template-id="certification-four-title"
+                      class="canva-text font-semibold"
+                      style="
+                        color: rgb(30, 37, 34);
+                        font-weight: 600;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      Introduction to Modern AI
+                    </p>
+                    <p
+                      data-template-id="certification-four-date"
+                      class="canva-text mt-2 text-sm"
+                      style="
+                        color: rgb(88, 96, 90);
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 16px;
+                      "
+                    >
+                      November 2025 — December 2025
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="contact"
+          data-template-id="contact-section"
+          class="canva-section"
+          style="background: rgb(30, 37, 34)"
+        >
+          <div
+            class="content-width grid gap-12 py-20 md:grid-cols-[.9fr_1.1fr] md:py-28"
+          >
+            <div class="reveal">
+              <p
+                data-template-id="contact-label"
+                class="canva-text eyebrow"
+                style="
+                  color: rgb(214, 90, 58);
+                  font-weight: 700;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                05 / Contact
+              </p>
+              <h2
+                data-template-id="contact-title"
+                class="canva-text display-face mt-4 max-w-xl font-semibold leading-[.96] tracking-[-.055em]"
+                style="
+                  color: rgb(244, 241, 234);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 24px;
+                "
+              >
+                Let’s build something useful.
+              </h2>
+              <p
+                data-template-id="contact-copy"
+                class="canva-text mt-6 max-w-md leading-7"
+                style="
+                  color: rgb(217, 212, 202);
+                  font-weight: 400;
+                  font-style: normal;
+                  font-size: 17px;
+                  line-height: 1.7;
+                "
+              >
+                For a project, collaboration, or technical conversation, feel
+                free to get in touch.
+              </p>
+              <div class="mt-9 space-y-3 border-t border-white/20 pt-6">
+                <p
+                  data-template-id="contact-phone"
+                  class="canva-text text-sm font-semibold"
+                  style="
+                    color: rgb(244, 241, 234);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                >
+                  +91-7489600508
+                </p>
+                <p
+                  data-template-id="contact-email"
+                  class="canva-text text-sm font-semibold"
+                  style="
+                    color: rgb(244, 241, 234);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                >
+                  yogeshbalpande1608@gmail.com
+                </p>
+                <p
+                  data-template-id="contact-location"
+                  class="canva-text text-sm"
+                  style="
+                    color: rgb(217, 212, 202);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                >
+                  Bhopal, Madhya Pradesh, India
+                </p>
+                <p
+                  data-template-id="contact-details"
+                  class="canva-text text-sm"
+                  style="
+                    color: rgb(217, 212, 202);
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                >
+                  Date of birth: August 16, 2005 · Gender: Male
+                </p>
+              </div>
+            </div>
+            <form
+              id="contact-form"
+              class="reveal border-t border-white/20 pt-3"
+              novalidate=""
+            >
+              <div class="mb-6">
+                <label
+                  data-template-id="name-label"
+                  class="canva-text text-sm font-semibold"
+                  for="contact-name"
+                  style="
+                    color: rgb(244, 241, 234);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Your name</label
+                >
+                <input
+                  id="contact-name"
+                  class="field mt-2"
+                  type="text"
+                  name="name"
+                  required=""
+                  autocomplete="name"
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  data-template-id="email-label"
+                  class="canva-text text-sm font-semibold"
+                  for="contact-email-input"
+                  style="
+                    color: rgb(244, 241, 234);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Email address</label
+                >
+                <input
+                  id="contact-email-input"
+                  class="field mt-2"
+                  type="email"
+                  name="email"
+                  required=""
+                  autocomplete="email"
+                />
+              </div>
+              <div class="mb-7">
+                <label
+                  data-template-id="message-label"
+                  class="canva-text text-sm font-semibold"
+                  for="contact-message"
+                  style="
+                    color: rgb(244, 241, 234);
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Your message</label
+                >
+                <textarea
+                  id="contact-message"
+                  class="field mt-2 min-h-[120px] resize-y"
+                  name="message"
+                  required=""
+                ></textarea>
+              </div>
+              <button
+                id="submit-button"
+                data-template-id="submit-button"
+                class="canva-button button-primary focus-ring inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-bold disabled:cursor-not-allowed disabled:opacity-60"
+                type="submit"
+                style="background: rgb(214, 90, 58); color: rgb(255, 255, 255)"
+              >
+                <span
+                  id="submit-text"
+                  data-template-id="submit-button-label"
+                  class="canva-text"
+                  style="
+                    color: rgb(255, 255, 255);
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Send message</span
+                >
+                <span
+                  id="sending-text"
+                  data-template-id="sending-button-label"
+                  class="canva-text hidden"
+                  style="
+                    color: rgb(255, 255, 255);
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 16px;
+                  "
+                  >Sending…</span
+                >
+                <i
+                  data-lucide="arrow-up-right"
+                  width="17"
+                  height="17"
+                  aria-hidden="true"
+                ></i>
+              </button>
+              <p
+                id="form-success"
+                data-template-id="form-success"
+                class="canva-text mt-5 hidden text-sm font-semibold"
+                role="status"
+                style="
+                  color: rgb(185, 227, 198);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                Thank you — your message has been sent.
+              </p>
+              <p
+                id="form-error"
+                data-template-id="form-error"
+                class="canva-text mt-5 hidden text-sm font-semibold"
+                role="alert"
+                style="
+                  color: rgb(255, 179, 162);
+                  font-weight: 600;
+                  font-style: normal;
+                  font-size: 16px;
+                "
+              >
+                Something went wrong. Please check your details and try again.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer
+        data-template-id="site-footer"
+        class="canva-footer border-t border-white/20"
+        style="background: rgb(30, 37, 34)"
+      >
+        <div
+          class="content-width flex flex-col justify-between gap-3 py-6 text-sm md:flex-row"
+        >
+          <p
+            data-template-id="footer-note"
+            class="canva-text"
+            style="
+              color: rgb(217, 212, 202);
+              font-weight: 400;
+              font-style: normal;
+              font-size: 16px;
+            "
+          >
+            © 2026 Yogesh Balpande. Built with curiosity.
+          </p>
+          <a
+            data-template-id="footer-top-link"
+            class="canva-link focus-ring font-semibold no-underline transition hover:text-[#d65a3a]"
+            href="#top"
+            style="
+              color: rgb(244, 241, 234);
+              font-weight: 700;
+              font-style: normal;
+              font-size: 16px;
+            "
+            >Back to top ↑</a
+          >
+        </div>
+      </footer>
     </div>
-    <nav id="mobile-menu" class="menu-panel is-closed border-t hairline md:hidden" aria-label="Mobile navigation">
-     <div class="content-width flex flex-col gap-4 py-5 text-sm font-semibold"><a class="nav-link focus-ring w-fit" href="#profile">Profile</a> <a class="nav-link focus-ring w-fit" href="#projects">Projects</a> <a class="nav-link focus-ring w-fit" href="#education">Education</a> <a class="nav-link focus-ring w-fit" href="#skills">Skills</a> <a class="nav-link focus-ring w-fit" href="#contact">Contact</a>
-     </div>
-    </nav>
-   </header>
-   <main id="top">
-    <section class="relative overflow-hidden border-b hairline">
-     <div class="content-width grid items-center gap-12 py-16 md:grid-cols-[1.05fr_.95fr] md:py-24 lg:py-28">
-      <div class="reveal">
-       <p data-template-id="hero-kicker" class="canva-text eyebrow mb-6" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Computer Science &amp; Engineering Student · Bhopal</p>
-       <h1 data-template-id="hero-name" class="canva-text display-face max-w-3xl font-semibold leading-[.88] tracking-[-.07em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 72px; letter-spacing: -0.07rem; line-height: 0.9;">Yogesh Balpande</h1>
-       <p data-template-id="hero-headline" class="canva-text mt-7 max-w-xl font-medium leading-snug" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 25px; line-height: 1.25;">Full-stack developer building useful, modern technology.</p>
-       <p data-template-id="hero-introduction" class="canva-text mt-5 max-w-lg leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 17px; line-height: 1.7;">Focused on MERN-stack development, mobile applications, RESTful APIs, data analysis, and modern AI.</p>
-       <div class="mt-6 flex max-w-xl flex-wrap gap-2.5" aria-label="Portfolio specifications"><span data-template-id="role-badge" class="canva-tag inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold" style="background: rgb(235, 229, 218); color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Computer Science &amp; Engineering Student</span> <span data-template-id="location-badge" class="canva-tag inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold" style="background: rgb(235, 229, 218); color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Bhopal, India</span> <span data-template-id="focus-badge" class="canva-tag inline-flex items-center rounded-full border px-3 py-1.5 text-xs font-semibold" style="background: rgb(235, 229, 218); color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">MERN Stack • APIs • Mobile Apps</span>
-       </div>
-       <div class="mt-4 flex max-w-xl flex-wrap items-center gap-x-3 gap-y-2 text-xs" aria-label="Current project focus"><span data-template-id="currently-building-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Currently building</span> <span data-template-id="currently-building-value" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">SlopeSense · Mobile &amp; terrain analysis</span>
-       </div>
-       <div class="mt-4 flex max-w-xl flex-wrap items-center gap-x-2 gap-y-2 text-xs" aria-label="Core technologies"><span data-template-id="core-technologies-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Core technologies</span> <span data-template-id="core-technologies-value" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">React.js • Node.js • Express • MongoDB</span>
-       </div>
-       <div class="mt-8 grid max-w-xl gap-3 sm:grid-cols-3">
-        <div class="stat-pill">
-         <strong>3+</strong>
-         <span>Years learning</span>
-        </div>
-        <div class="stat-pill">
-         <strong>8+</strong>
-         <span>Projects built</span>
-        </div>
-        <div class="stat-pill">
-         <strong>100%</strong>
-         <span>Curiosity-led</span>
-        </div>
-       </div>
-       <div class="mt-9 flex flex-wrap gap-3"><a data-template-id="projects-button" class="canva-button button-primary focus-ring inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold no-underline" href="#projects" style="background: rgb(214, 90, 58); color: rgb(255, 255, 255);"> <span data-template-id="projects-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">View projects</span> <i data-lucide="arrow-down-right" width="17" height="17" aria-hidden="true"></i> </a> <a data-template-id="contact-button" class="canva-button button-secondary focus-ring inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold no-underline" href="#contact" style="background: rgb(244, 241, 234); color: rgb(30, 37, 34);"> <span data-template-id="contact-button-label" class="canva-text" style="color: rgb(30, 37, 34); font-weight: 700; font-style: normal; font-size: 16px;">Get in touch</span> <i data-lucide="arrow-up-right" width="17" height="17" aria-hidden="true"></i> </a>
-       </div>
-      </div>
-      <div class="reveal relative hero-highlight p-3" style="transition-delay:.12s;">
-       <div class="absolute -right-5 -top-5 h-28 w-28 rounded-full border-[18px] md:-right-6 md:-top-6 md:h-40 md:w-40" style="border-color:#d65a3a; opacity:.9;"></div>
-       <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] ring-1 ring-black/5"><img data-template-id="hero-image" class="canva-image h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/12899156/pexels-photo-12899156.jpeg" alt="Focused software developer typing code on a laptop in a modern office setting.">
-       </div>
-       <p data-template-id="hero-image-caption" class="canva-text mt-4 text-xs font-medium uppercase tracking-[.12em]" style="color: rgb(88, 96, 90); font-weight: 700; font-style: normal; font-size: 16px;">Developer portfolio · Bhopal, India</p>
-      </div>
-     </div>
-    </section>
-    <section id="profile" class="border-b hairline py-20 md:py-28">
-     <div class="content-width grid gap-10 md:grid-cols-[.7fr_1.3fr]">
-      <div class="reveal">
-       <p data-template-id="profile-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">01 / Profile</p>
-      </div>
-      <div class="reveal">
-       <h2 data-template-id="profile-title" class="canva-text display-face max-w-3xl font-semibold leading-tight tracking-[-.045em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 24px;">Building practical digital products with curiosity and care.</h2>
-       <p data-template-id="profile-copy" class="canva-text mt-6 max-w-2xl leading-8" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.7;">I am a Computer Science and Engineering student at Sagar Institute of Science Technology and Research, Bhopal. I enjoy turning real-world needs into scalable web, mobile, and data-driven solutions.</p>
-       <div class="mt-10 grid gap-px overflow-hidden border hairline bg-[rgba(30,37,34,.16)] sm:grid-cols-3">
-        <div data-template-id="focus-one" class="canva-panel p-6" style="background: rgb(235, 229, 218);">
-         <p data-template-id="focus-one-number" class="canva-text display-face text-3xl font-semibold" style="color: rgb(214, 90, 58); font-weight: 600; font-style: normal; font-size: 16px;">01</p>
-         <p data-template-id="focus-one-label" class="canva-text mt-6 text-sm font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">MERN-stack development</p>
-        </div>
-        <div data-template-id="focus-two" class="canva-panel p-6" style="background: rgb(235, 229, 218);">
-         <p data-template-id="focus-two-number" class="canva-text display-face text-3xl font-semibold" style="color: rgb(214, 90, 58); font-weight: 600; font-style: normal; font-size: 16px;">02</p>
-         <p data-template-id="focus-two-label" class="canva-text mt-6 text-sm font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Mobile apps &amp; APIs</p>
-        </div>
-        <div data-template-id="focus-three" class="canva-panel p-6" style="background: rgb(235, 229, 218);">
-         <p data-template-id="focus-three-number" class="canva-text display-face text-3xl font-semibold" style="color: rgb(214, 90, 58); font-weight: 600; font-style: normal; font-size: 16px;">03</p>
-         <p data-template-id="focus-three-label" class="canva-text mt-6 text-sm font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Data analysis &amp; modern AI</p>
-        </div>
-       </div>
-      </div>
-     </div>
-    </section>
-    <section id="projects" class="py-20 md:py-28">
-     <div class="content-width">
-      <div class="reveal flex flex-col justify-between gap-6 border-b hairline pb-8 md:flex-row md:items-end">
-       <div>
-        <p data-template-id="projects-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">02 / Projects</p>
-        <h2 data-template-id="projects-title" class="canva-text display-face mt-4 font-semibold tracking-[-.045em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 24px;">Selected technical work.</h2>
-       </div>
-       <p data-template-id="projects-intro" class="canva-text max-w-sm leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Full-stack, mobile, and data-focused projects designed around real user needs.</p>
-      </div>
-      <div class="mt-10 grid gap-6 lg:grid-cols-12">
-       <article data-template-id="project-one-card" class="canva-card project-card reveal overflow-hidden border hairline lg:col-span-7" style="background: rgb(235, 229, 218);">
-        <div class="image-frame aspect-[16/10] overflow-hidden"><img data-template-id="project-one-image" class="canva-image h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/36136699/pexels-photo-36136699.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="A smartphone displaying an app screen lies on a dark surface, highlighting technology.">
-        </div>
-        <div class="p-6 md:p-7">
-         <p data-template-id="project-one-type" class="canva-tag eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Mobile &amp; terrain analysis · March 2026 — June 2026</p>
-         <h3 data-template-id="project-one-title" class="canva-text display-face mt-4 font-semibold tracking-[-.04em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 19px;">SlopeSense</h3>
-         <p data-template-id="project-one-copy" class="canva-text mt-3 max-w-xl leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">A cross-platform React Native app for real-time slope and terrain analysis, helping assess land safety and identify suitable groundwater recharge pit locations. Includes interactive maps, dynamic markers, Node.js APIs, Python terrain processing, and Docker deployment.</p>
-         <p data-template-id="project-one-skills" class="canva-text mt-5 text-sm font-semibold leading-6" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">React.js · React Native · Node.js · Express · Docker · MongoDB · REST API design</p>
-        </div>
-       </article>
-       <div class="grid gap-6 lg:col-span-5">
-        <article data-template-id="project-two-card" class="canva-card project-card reveal overflow-hidden border hairline" style="transition-delay: 0.08s; background: rgb(255, 255, 255);">
-         <div class="image-frame aspect-[16/9] overflow-hidden"><img data-template-id="project-two-image" class="canva-image h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/3888149/pexels-photo-3888149.jpeg" alt="Computer screen with program code and app during work in workplace of modern office.">
-         </div>
-         <div class="p-6">
-          <p data-template-id="project-two-type" class="canva-tag eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Quiz platform · October 2025 — November 2025</p>
-          <h3 data-template-id="project-two-title" class="canva-text display-face mt-3 font-semibold tracking-[-.04em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 19px;">QuizMaster</h3>
-          <p data-template-id="project-two-copy" class="canva-text mt-2 leading-6" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">A scalable quiz management platform with validated MongoDB data models, batch-code verification, result processing, real-time leaderboards, RESTful APIs, and secure middleware.</p>
-          <p data-template-id="project-two-skills" class="canva-text mt-4 text-sm font-semibold leading-6" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">React.js · Express · MongoDB · Node.js</p>
-         </div>
-        </article>
-        <article data-template-id="project-three-card" class="canva-card project-card reveal overflow-hidden border hairline" style="transition-delay: 0.15s; background: rgb(232, 226, 215);">
-         <div class="image-frame aspect-[16/9] overflow-hidden"><img data-template-id="project-three-image" class="canva-image h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg" alt="Sleek laptop showcasing data analytics and graphs on the screen in a bright room.">
-         </div>
-         <div class="p-6">
-          <p data-template-id="project-three-type" class="canva-tag eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Full-stack web application · October 2025 — November 2025</p>
-          <h3 data-template-id="project-three-title" class="canva-text display-face mt-3 font-semibold tracking-[-.04em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 19px;">Student Management System</h3>
-          <p data-template-id="project-three-copy" class="canva-text mt-2 leading-6" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">A student records platform for enrollment, attendance tracking, performance reporting, analytics dashboards, and automated reporting with JWT-based role-based access control.</p>
-          <p data-template-id="project-three-skills" class="canva-text mt-4 text-sm font-semibold leading-6" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">React.js · Node.js · SQL · MongoDB · Tailwind CSS</p>
-         </div>
-        </article>
-       </div>
-      </div>
-     </div>
-    </section>
-    <section id="skills" data-template-id="skills-section" class="canva-section border-y hairline py-20 md:py-28" style="background: rgb(232, 226, 215);">
-     <div class="content-width">
-      <div class="reveal grid gap-6 md:grid-cols-[.7fr_1.3fr]">
-       <p data-template-id="skills-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">03 / Skills &amp; languages</p>
-       <div>
-        <h2 data-template-id="skills-title" class="canva-text display-face font-semibold tracking-[-.045em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 24px;">A practical, full-stack toolkit.</h2>
-        <p data-template-id="skills-copy" class="canva-text mt-5 max-w-2xl leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 17px; line-height: 1.7;">A growing technical foundation across web development, mobile development, databases, deployment, and programming fundamentals.</p>
-       </div>
-      </div>
-      <div class="mt-11 grid gap-4 md:grid-cols-3">
-       <article data-template-id="skill-one-card" class="canva-card skill-card reveal border hairline p-6" style="background: rgb(244, 241, 234);"><span class="mb-12 inline-flex rounded-full p-3" style="background:#d65a3a;color:#ffffff;"> <i data-lucide="braces" width="21" height="21" aria-hidden="true"></i> </span>
-        <h3 data-template-id="skill-one-title" class="canva-text display-face font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 19px;">Web development</h3>
-        <p data-template-id="skill-one-copy" class="canva-text mt-3 leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">MERN Stack, JavaScript, React.js, Node.js, Express, MongoDB, Tailwind CSS, REST API design, JWT, and role-based access control.</p>
-       </article>
-       <article data-template-id="skill-two-card" class="canva-card skill-card reveal border hairline p-6" style="transition-delay: 0.08s; background: rgb(244, 241, 234);"><span class="mb-12 inline-flex rounded-full p-3" style="background:#d65a3a;color:#ffffff;"> <i data-lucide="smartphone" width="21" height="21" aria-hidden="true"></i> </span>
-        <h3 data-template-id="skill-two-title" class="canva-text display-face font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 19px;">Mobile &amp; deployment</h3>
-        <p data-template-id="skill-two-copy" class="canva-text mt-3 leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">React Native for cross-platform app development, Docker containers for deployment, and scalable API-driven application architecture.</p>
-       </article>
-       <article data-template-id="skill-three-card" class="canva-card skill-card reveal border hairline p-6" style="transition-delay: 0.16s; background: rgb(244, 241, 234);"><span class="mb-12 inline-flex rounded-full p-3" style="background:#d65a3a;color:#ffffff;"> <i data-lucide="database" width="21" height="21" aria-hidden="true"></i> </span>
-        <h3 data-template-id="skill-three-title" class="canva-text display-face font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 19px;">Programming &amp; languages</h3>
-        <p data-template-id="skill-three-copy" class="canva-text mt-3 leading-7" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">C programming, Python, SQL,  JavaScript .</p>
-       </article>
-      </div>
-     </div>
-    </section>
-    <section id="education" class="py-20 md:py-28">
-     <div class="content-width grid gap-10 md:grid-cols-[.7fr_1.3fr]">
-      <div class="reveal">
-       <p data-template-id="education-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">04 / Education &amp; certifications</p>
-       <h2 data-template-id="education-title" class="canva-text display-face mt-4 font-semibold tracking-[-.045em]" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 24px;">Learning in progress.</h2>
-      </div>
-      <div class="reveal">
-       <div class="divide-y hairline border-t hairline">
-        <article class="grid gap-3 py-6 sm:grid-cols-[120px_1fr]">
-         <p data-template-id="education-one-year" class="canva-text text-sm font-semibold" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Current</p>
-         <div>
-          <h3 data-template-id="education-one-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 700; font-style: normal; font-size: 19px;">B.Tech / B.E. in Computer Science and Engineering (CSE)</h3>
-          <p data-template-id="education-one-copy" class="canva-text mt-1 leading-6" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">Sagar Institute of Science Technology and Research, Bhopal</p>
-         </div>
-        </article>
-        <article class="grid gap-3 py-6 sm:grid-cols-[120px_1fr]">
-         <p data-template-id="education-two-year" class="canva-text text-sm font-semibold" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">2023</p>
-         <div>
-          <h3 data-template-id="education-two-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 700; font-style: normal; font-size: 19px;">Class XII</h3>
-          <p data-template-id="education-two-copy" class="canva-text mt-1 leading-6" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">C. M. Rise , Pandhurna, Madhya Pradesh</p>
-         </div>
-        </article>
-        <article class="grid gap-3 py-6 sm:grid-cols-[120px_1fr]">
-         <p data-template-id="education-three-year" class="canva-text text-sm font-semibold" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">2021</p>
-         <div>
-          <h3 data-template-id="education-three-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 700; font-style: normal; font-size: 19px;">Class X</h3>
-          <p data-template-id="education-three-copy" class="canva-text mt-1 leading-6" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">Dr. RadhaKrishnan Vidhya Mandir, Pandhurna, Madhya Pradesh</p>
-         </div>
-        </article>
-       </div>
-       <div class="mt-12">
-        <p data-template-id="certifications-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Courses &amp; certifications</p>
-        <div class="mt-5 grid gap-px overflow-hidden border hairline bg-[rgba(30,37,34,.16)] sm:grid-cols-2">
-         <div data-template-id="certification-one" class="canva-panel p-5" style="background: rgb(235, 229, 218);">
-          <p data-template-id="certification-one-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Cisco CCNA</p>
-          <p data-template-id="certification-one-date" class="canva-text mt-2 text-sm" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">April 2026 — May 2026</p>
-         </div>
-         <div data-template-id="certification-two" class="canva-panel p-5" style="background: rgb(235, 229, 218);">
-          <p data-template-id="certification-two-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Introduction to Data Science</p>
-          <p data-template-id="certification-two-date" class="canva-text mt-2 text-sm" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">November 2025 — January 2026</p>
-         </div>
-         <div data-template-id="certification-three" class="canva-panel p-5" style="background: rgb(235, 229, 218);">
-          <p data-template-id="certification-three-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">2026 India Internship SISTec Data Analytics Essentials</p>
-          <p data-template-id="certification-three-date" class="canva-text mt-2 text-sm" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">May 2026 — June 2026</p>
-         </div>
-         <div data-template-id="certification-four" class="canva-panel p-5" style="background: rgb(235, 229, 218);">
-          <p data-template-id="certification-four-title" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">Introduction to Modern AI</p>
-          <p data-template-id="certification-four-date" class="canva-text mt-2 text-sm" style="color: rgb(88, 96, 90); font-weight: 400; font-style: normal; font-size: 16px;">November 2025 — December 2025</p>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </section>
-    <section id="contact" data-template-id="contact-section" class="canva-section" style="background: rgb(30, 37, 34);">
-     <div class="content-width grid gap-12 py-20 md:grid-cols-[.9fr_1.1fr] md:py-28">
-      <div class="reveal">
-       <p data-template-id="contact-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">05 / Contact</p>
-       <h2 data-template-id="contact-title" class="canva-text display-face mt-4 max-w-xl font-semibold leading-[.96] tracking-[-.055em]" style="color: rgb(244, 241, 234); font-weight: 600; font-style: normal; font-size: 24px;">Let’s build something useful.</h2>
-       <p data-template-id="contact-copy" class="canva-text mt-6 max-w-md leading-7" style="color: rgb(217, 212, 202); font-weight: 400; font-style: normal; font-size: 17px; line-height: 1.7;">For a project, collaboration, or technical conversation, feel free to get in touch.</p>
-       <div class="mt-9 space-y-3 border-t border-white/20 pt-6">
-        <p data-template-id="contact-phone" class="canva-text text-sm font-semibold" style="color: rgb(244, 241, 234); font-weight: 600; font-style: normal; font-size: 16px;">+91-7489600508</p>
-        <p data-template-id="contact-email" class="canva-text text-sm font-semibold" style="color: rgb(244, 241, 234); font-weight: 600; font-style: normal; font-size: 16px;">yogeshbalpande1608@gmail.com</p>
-        <p data-template-id="contact-location" class="canva-text text-sm" style="color: rgb(217, 212, 202); font-weight: 400; font-style: normal; font-size: 16px;">Bhopal, Madhya Pradesh, India</p>
-        <p data-template-id="contact-details" class="canva-text text-sm" style="color: rgb(217, 212, 202); font-weight: 400; font-style: normal; font-size: 16px;">Date of birth: August 16, 2005 · Gender: Male</p>
-       </div>
-      </div>
-      <form id="contact-form" class="reveal border-t border-white/20 pt-3" novalidate="">
-       <div class="mb-6"><label data-template-id="name-label" class="canva-text text-sm font-semibold" for="contact-name" style="color: rgb(244, 241, 234); font-weight: 600; font-style: normal; font-size: 16px;">Your name</label> <input id="contact-name" class="field mt-2" type="text" name="name" required="" autocomplete="name">
-       </div>
-       <div class="mb-6"><label data-template-id="email-label" class="canva-text text-sm font-semibold" for="contact-email-input" style="color: rgb(244, 241, 234); font-weight: 600; font-style: normal; font-size: 16px;">Email address</label> <input id="contact-email-input" class="field mt-2" type="email" name="email" required="" autocomplete="email">
-       </div>
-       <div class="mb-7"><label data-template-id="message-label" class="canva-text text-sm font-semibold" for="contact-message" style="color: rgb(244, 241, 234); font-weight: 600; font-style: normal; font-size: 16px;">Your message</label> <textarea id="contact-message" class="field mt-2 min-h-[120px] resize-y" name="message" required=""></textarea>
-       </div><button id="submit-button" data-template-id="submit-button" class="canva-button button-primary focus-ring inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-bold disabled:cursor-not-allowed disabled:opacity-60" type="submit" style="background: rgb(214, 90, 58); color: rgb(255, 255, 255);"> <span id="submit-text" data-template-id="submit-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Send message</span> <span id="sending-text" data-template-id="sending-button-label" class="canva-text hidden" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Sending…</span> <i data-lucide="arrow-up-right" width="17" height="17" aria-hidden="true"></i> </button>
-       <p id="form-success" data-template-id="form-success" class="canva-text mt-5 hidden text-sm font-semibold" role="status" style="color: rgb(185, 227, 198); font-weight: 600; font-style: normal; font-size: 16px;">Thank you — your message has been sent.</p>
-       <p id="form-error" data-template-id="form-error" class="canva-text mt-5 hidden text-sm font-semibold" role="alert" style="color: rgb(255, 179, 162); font-weight: 600; font-style: normal; font-size: 16px;">Something went wrong. Please check your details and try again.</p>
-      </form>
-     </div>
-    </section>
-   </main>
-   <footer data-template-id="site-footer" class="canva-footer border-t border-white/20" style="background: rgb(30, 37, 34);">
-    <div class="content-width flex flex-col justify-between gap-3 py-6 text-sm md:flex-row">
-     <p data-template-id="footer-note" class="canva-text" style="color: rgb(217, 212, 202); font-weight: 400; font-style: normal; font-size: 16px;">© 2026 Yogesh Balpande. Built with curiosity.</p><a data-template-id="footer-top-link" class="canva-link focus-ring font-semibold no-underline transition hover:text-[#d65a3a]" href="#top" style="color: rgb(244, 241, 234); font-weight: 700; font-style: normal; font-size: 16px;">Back to top ↑</a>
-    </div>
-   </footer>
-  </div>
-  <script src="/_sdk/22383239e6d7279e.editing_sdk.js" integrity="sha512-qvtUeUgPbBuWkcjob5tx6AGU1PQHkx4zgZWqqpaXOQqF0FGg35lPkDg2Eh+f2u6Np/H74EENvDhGRPcQgwZA+Q=="></script>
-  <script>
-    const menuToggle = document.getElementById("menu-toggle");
-    const mobileMenu = document.getElementById("mobile-menu");
+    <script
+      src="/_sdk/22383239e6d7279e.editing_sdk.js"
+      integrity="sha512-qvtUeUgPbBuWkcjob5tx6AGU1PQHkx4zgZWqqpaXOQqF0FGg35lPkDg2Eh+f2u6Np/H74EENvDhGRPcQgwZA+Q=="
+    ></script>
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
 
-    menuToggle.addEventListener("click", () => {
-      const isClosed = mobileMenu.classList.toggle("is-closed");
-      menuToggle.setAttribute("aria-expanded", String(!isClosed));
-    });
-
-    document.querySelectorAll("#mobile-menu a").forEach((link) => {
-      link.addEventListener("click", () => {
-        mobileMenu.classList.add("is-closed");
-        menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.addEventListener("click", () => {
+        const isClosed = mobileMenu.classList.toggle("is-closed");
+        menuToggle.setAttribute("aria-expanded", String(!isClosed));
       });
-    });
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("in-view");
-          observer.unobserve(entry.target);
+      document.querySelectorAll("#mobile-menu a").forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("is-closed");
+          menuToggle.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((element) => observer.observe(element));
+
+      const form = document.getElementById("contact-form");
+      const submitButton = document.getElementById("submit-button");
+      const submitText = document.getElementById("submit-text");
+      const sendingText = document.getElementById("sending-text");
+      const successMessage = document.getElementById("form-success");
+      const errorMessage = document.getElementById("form-error");
+      let dataReady = false;
+
+      const dataHandler = {
+        onDataChanged() {
+          dataReady = true;
+        },
+      };
+
+      async function initialiseData() {
+        const result = await window.dataSdk.init(dataHandler);
+        if (!result.isOk) {
+          errorMessage.classList.remove("hidden");
+        }
+      }
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        successMessage.classList.add("hidden");
+        errorMessage.classList.add("hidden");
+
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+
+        if (!dataReady) {
+          errorMessage.classList.remove("hidden");
+          return;
+        }
+
+        submitButton.disabled = true;
+        submitText.classList.add("hidden");
+        sendingText.classList.remove("hidden");
+
+        const formData = new FormData(form);
+        const result = await window.dataSdk.create({
+          name: formData.get("name").trim(),
+          email: formData.get("email").trim(),
+          message: formData.get("message").trim(),
+          submitted_at: new Date().toISOString(),
+        });
+
+        submitButton.disabled = false;
+        submitText.classList.remove("hidden");
+        sendingText.classList.add("hidden");
+
+        if (result.isOk) {
+          form.reset();
+          successMessage.classList.remove("hidden");
+        } else {
+          errorMessage.classList.remove("hidden");
         }
       });
-    }, { threshold: 0.12 });
 
-    document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
-
-    const form = document.getElementById("contact-form");
-    const submitButton = document.getElementById("submit-button");
-    const submitText = document.getElementById("submit-text");
-    const sendingText = document.getElementById("sending-text");
-    const successMessage = document.getElementById("form-success");
-    const errorMessage = document.getElementById("form-error");
-    let dataReady = false;
-
-    const dataHandler = {
-      onDataChanged() {
-        dataReady = true;
-      }
-    };
-
-    async function initialiseData() {
-      const result = await window.dataSdk.init(dataHandler);
-      if (!result.isOk) {
-        errorMessage.classList.remove("hidden");
-      }
-    }
-
-    form.addEventListener("submit", async (event) => {
-      event.preventDefault();
-      successMessage.classList.add("hidden");
-      errorMessage.classList.add("hidden");
-
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-
-      if (!dataReady) {
-        errorMessage.classList.remove("hidden");
-        return;
-      }
-
-      submitButton.disabled = true;
-      submitText.classList.add("hidden");
-      sendingText.classList.remove("hidden");
-
-      const formData = new FormData(form);
-      const result = await window.dataSdk.create({
-        name: formData.get("name").trim(),
-        email: formData.get("email").trim(),
-        message: formData.get("message").trim(),
-        submitted_at: new Date().toISOString()
-      });
-
-      submitButton.disabled = false;
-      submitText.classList.remove("hidden");
-      sendingText.classList.add("hidden");
-
-      if (result.isOk) {
-        form.reset();
-        successMessage.classList.remove("hidden");
-      } else {
-        errorMessage.classList.remove("hidden");
-      }
-    });
-
-    initialiseData();
-    lucide.createIcons();
-  </script>
- 
-</body></html>
+      initialiseData();
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
