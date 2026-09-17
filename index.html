@@ -9,14 +9,19 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
   <style>
     :root {
-      --ink: #1e2522;
-      --paper: #f4f1ea;
-      --paper-deep: #e8e2d7;
-      --panel: #ebe5da;
+      --ink: #171b1a;
+      --paper: #f5f0e8;
+      --paper-deep: #e9e0d1;
+      --panel: #f9f5ef;
       --accent: #d65a3a;
-      --line: rgba(30, 37, 34, .16);
-      --muted: #58605a;
-      --night-muted: #d9d4ca;
+      --accent-soft: #f4d4c9;
+      --accent-deep: #bb432a;
+      --line: rgba(23, 27, 26, .12);
+      --muted: #58615c;
+      --night: #101514;
+      --night-soft: #1d2624;
+      --white: #ffffff;
+      --shadow-soft: 0 20px 45px rgba(23, 27, 26, .09);
     }
 
     * { box-sizing: border-box; }
@@ -28,6 +33,9 @@
       overflow-x: hidden;
       font-family: "DM Sans", sans-serif;
       color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(214, 90, 58, .12), transparent 28%),
+        linear-gradient(180deg, var(--paper) 0%, #f8f5f0 100%);
     }
 
     .site-shell { width: 100%; }
@@ -43,14 +51,16 @@
     }
 
     .header-glass {
-      background: rgba(244, 241, 234, .92);
-      box-shadow: 0 1px 0 rgba(30, 37, 34, .06);
+      background: rgba(245, 240, 232, .82);
+      backdrop-filter: blur(16px);
+      box-shadow: 0 10px 30px rgba(23, 27, 26, .03);
     }
 
     .nav-link {
       position: relative;
       padding: .35rem 0;
       transition: color .22s ease;
+      color: var(--ink);
     }
 
     .nav-link::after {
@@ -88,14 +98,19 @@
       transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease;
     }
 
+    .button-primary {
+      box-shadow: 0 14px 28px rgba(214, 90, 58, .2);
+    }
+
     .button-primary:hover {
-      box-shadow: 0 10px 22px rgba(214, 90, 58, .24);
+      background: var(--accent-deep) !important;
+      box-shadow: 0 18px 28px rgba(214, 90, 58, .26);
       transform: translateY(-2px);
     }
 
     .button-secondary:hover {
       border-color: rgba(214, 90, 58, .65);
-      box-shadow: 0 8px 18px rgba(30, 37, 34, .09);
+      box-shadow: 0 8px 18px rgba(23, 27, 26, .09);
       transform: translateY(-2px);
     }
 
@@ -107,7 +122,7 @@
     .project-card:hover,
     .skill-card:hover {
       border-color: rgba(214, 90, 58, .56);
-      box-shadow: 0 18px 36px rgba(30, 37, 34, .12);
+      box-shadow: 0 20px 36px rgba(23, 27, 26, .12);
       transform: translateY(-5px);
     }
 
@@ -117,7 +132,42 @@
 
     .project-card:hover .image-frame img {
       filter: saturate(1.08) contrast(1.02);
-      transform: scale(1.045);
+      transform: scale(1.04);
+    }
+
+    .hero-highlight {
+      position: relative;
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(255,255,255,.6), rgba(245, 240, 232, .78));
+      border: 1px solid rgba(23, 27, 26, .06);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .stat-pill {
+      border: 1px solid rgba(23, 27, 26, .08);
+      background: rgba(255,255,255,.5);
+      border-radius: 18px;
+      padding: 1rem 1rem;
+      min-height: 108px;
+      box-shadow: 0 8px 18px rgba(23, 27, 26, .04);
+    }
+
+    .stat-pill strong {
+      display: block;
+      color: var(--accent);
+      font-size: clamp(1.5rem, 1.7vw, 2.2rem);
+      line-height: 1;
+      margin-bottom: .45rem;
+      font-family: "Fraunces", serif;
+    }
+
+    .stat-pill span {
+      display: block;
+      font-size: .72rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: rgba(23, 27, 26, .72);
+      font-weight: 700;
     }
 
     .reveal {
@@ -205,12 +255,26 @@
        </div>
        <div class="mt-4 flex max-w-xl flex-wrap items-center gap-x-2 gap-y-2 text-xs" aria-label="Core technologies"><span data-template-id="core-technologies-label" class="canva-text eyebrow" style="color: rgb(214, 90, 58); font-weight: 700; font-style: normal; font-size: 16px;">Core technologies</span> <span data-template-id="core-technologies-value" class="canva-text font-semibold" style="color: rgb(30, 37, 34); font-weight: 600; font-style: normal; font-size: 16px;">React.js • Node.js • Express • MongoDB</span>
        </div>
+       <div class="mt-8 grid max-w-xl gap-3 sm:grid-cols-3">
+        <div class="stat-pill">
+         <strong>3+</strong>
+         <span>Years learning</span>
+        </div>
+        <div class="stat-pill">
+         <strong>8+</strong>
+         <span>Projects built</span>
+        </div>
+        <div class="stat-pill">
+         <strong>100%</strong>
+         <span>Curiosity-led</span>
+        </div>
+       </div>
        <div class="mt-9 flex flex-wrap gap-3"><a data-template-id="projects-button" class="canva-button button-primary focus-ring inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold no-underline" href="#projects" style="background: rgb(214, 90, 58); color: rgb(255, 255, 255);"> <span data-template-id="projects-button-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">View projects</span> <i data-lucide="arrow-down-right" width="17" height="17" aria-hidden="true"></i> </a> <a data-template-id="contact-button" class="canva-button button-secondary focus-ring inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-semibold no-underline" href="#contact" style="background: rgb(244, 241, 234); color: rgb(30, 37, 34);"> <span data-template-id="contact-button-label" class="canva-text" style="color: rgb(30, 37, 34); font-weight: 700; font-style: normal; font-size: 16px;">Get in touch</span> <i data-lucide="arrow-up-right" width="17" height="17" aria-hidden="true"></i> </a>
        </div>
       </div>
-      <div class="reveal relative" style="transition-delay:.12s;">
-       <div class="absolute -right-5 -top-5 h-28 w-28 rounded-full border-[18px] md:-right-6 md:-top-6 md:h-40 md:w-40" style="border-color:#d65a3a;"></div>
-       <div class="relative aspect-[4/5] overflow-hidden shadow-[14px_16px_0_rgba(30,37,34,.10)]"><img data-template-id="hero-image" class="canva-image h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/12899156/pexels-photo-12899156.jpeg" alt="Focused software developer typing code on a laptop in a modern office setting.">
+      <div class="reveal relative hero-highlight p-3" style="transition-delay:.12s;">
+       <div class="absolute -right-5 -top-5 h-28 w-28 rounded-full border-[18px] md:-right-6 md:-top-6 md:h-40 md:w-40" style="border-color:#d65a3a; opacity:.9;"></div>
+       <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] ring-1 ring-black/5"><img data-template-id="hero-image" class="canva-image h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/12899156/pexels-photo-12899156.jpeg" alt="Focused software developer typing code on a laptop in a modern office setting.">
        </div>
        <p data-template-id="hero-image-caption" class="canva-text mt-4 text-xs font-medium uppercase tracking-[.12em]" style="color: rgb(88, 96, 90); font-weight: 700; font-style: normal; font-size: 16px;">Developer portfolio · Bhopal, India</p>
       </div>
